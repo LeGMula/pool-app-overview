@@ -54,7 +54,7 @@ Our mobile app implements a sophisticated error handling mechanism using flutter
 
 ### Complex API Endpoint Example: Wallet Withdrawal
 
-[Python code snippet would go here]
+
 ```python
 @method_decorator(name='post', decorator=doc_decorator)
 class WalletWithdrawView(APIView):
