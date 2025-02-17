@@ -4,7 +4,8 @@
 [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/de/app/pool-music/id1589212656?l=en-GB) 
 [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=app.poolmusic)
 
-![image](https://github.com/user-attachments/assets/7d1082e8-72ad-4b36-aae3-a5fa47e6ed13)
+![image](https://github.com/user-attachments/assets/a0bc7960-b371-4b6e-a538-3c1b05af992b)
+
 
 
 ## System Architecture
