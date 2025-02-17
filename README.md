@@ -8,67 +8,53 @@
 
 
 
-## System Architecture
+# System Architecture
 
-### 1. Mobile Application (Flutter)
+## 1. Mobile Application (Flutter)
 
-- **Framework**: Flutter SDK ^3.7.0
-- **State Management**: Utilizes `flutter_bloc` and `hydrated_bloc` for efficient state handling
-- **Key Features**: 
-  - Real-time stock chart price & percentage change display
-  - User authentication and verification
-  - Dynamic updates for market data
-- **Notable Dependencies**:
-  - `flutter_bloc` for state management
-  - `go_router` for navigation
+- Framework: Flutter SDK ^3.7.0
+- State Management: Utilizes flutter_bloc and hydrated_bloc for efficient state handling
+- Key Features:
+  ○ Real-time stock chart price & percentage change display
+  ○ User authentication and verification
+  ○ Dynamic updates for market data
+- Notable Dependencies:
+  ○ flutter_bloc for state management
+  ○ go_router for navigation
 
-#### Unique Solution: Error Handling
+### Unique Solution: Error Handling
 
-Our mobile app implements a sophisticated error handling mechanism using `flutter_bloc`:
+Our mobile app implements a sophisticated error handling mechanism using flutter_bloc:
 
-```dart
-class ErrorListener {
-  void listener(BuildContext context, ErrorHandlerState state) {
-    // Error handling logic
-    if (state is TimeoutErrorState) {
-      errorSnackBar = AppSnackBar(message: 'Server connection timeout. Please try again.');
-    } else if (state is ValidationErrorState) {
-      errorSnackBar = AppSnackBar(message: 'Server has returned an error. Please verify all information you have entered.');
-    }
-    // ... more error states ...
-    
-    if (errorSnackBar != null && showSnackBar) {
-      ScaffoldMessenger.of(context).showSnackBar(errorSnackBar);
-    }
-  }
-}
+[Code snippet would go here]
 
-2. Web Admin Portal (Angular)
+## 2. Web Admin Portal (Angular)
 
-- **Framework**: Angular 16.0.5
-- **Key Libraries**:
-  - @angular/platform-browser
-  - @angular/router
-  - @angular/common
-  - @angular/core
-- **Main Functionalities**: 
-  - User authentication
-  - Statistics display
-  - Verification processes
-- **State Management**: Utilizes built-in Angular services for state management
+- Framework: Angular 16.0.5
+- Key Libraries:
+  ○ @angular/platform-browser
+  ○ @angular/router
+  ○ @angular/common
+  ○ @angular/core
+- Main Functionalities:
+  ○ User authentication
+  ○ Statistics display
+  ○ Verification processes
+- State Management: Utilizes built-in Angular services for state management
 
-3. Backend Services (Python)
+## 3. Backend Services (Python)
 
-- **Framework**: Django
-- **Database**: PostgreSQL, chosen for its robustness and support for advanced features
-- **Key Services**:
-  - Profile management
-  - Wallet operations
-  - User verification
-  - Market order processing
+- Framework: Django
+- Database: PostgreSQL, chosen for its robustness and support for advanced features
+- Key Services:
+  ○ Profile management
+  ○ Wallet operations
+  ○ User verification
+  ○ Market order processing
 
-#### Complex API Endpoint Example: Wallet Withdrawal
+### Complex API Endpoint Example: Wallet Withdrawal
 
+[Python code snippet would go here]
 ```python
 @method_decorator(name='post', decorator=doc_decorator)
 class WalletWithdrawView(APIView):
