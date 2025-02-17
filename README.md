@@ -22,12 +22,6 @@
   ○ flutter_bloc for state management
   ○ go_router for navigation
 
-### Unique Solution: Error Handling
-
-Our mobile app implements a sophisticated error handling mechanism using flutter_bloc:
-
-[Code snippet would go here]
-
 ## 2. Web Admin Portal (Angular)
 
 - Framework: Angular 16.0.5
