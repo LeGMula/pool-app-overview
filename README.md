@@ -1,4 +1,4 @@
-# Pool Music: Innovative Music Investment Platform 🎵💹
+# Pool Music App
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/poolmusic.app/) 
 [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/de/app/pool-music/id1589212656?l=en-GB) 
